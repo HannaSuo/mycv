@@ -68,6 +68,10 @@ ul {
         grid-template-columns: 100%;
 
     }
+
+    .button {
+        font-size: 2.8vw;
+    }
     
 }
 /*tablet*/
@@ -77,6 +81,10 @@ ul {
         display: grid;
         grid-template-columns: 100%;
 
+    }
+
+    .button {
+        font-size: 2.8vw;
     }
 
 }
