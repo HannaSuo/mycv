@@ -10,7 +10,7 @@ a {
 
 div[class*="caption"] {
     display: none;
-    height:30px;
+    height:40px;
     width:290px;
     margin-left:1px;
     background-color: #339E90;
