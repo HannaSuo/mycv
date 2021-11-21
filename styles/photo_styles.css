@@ -4,56 +4,10 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.heading {
-    margin-top: 50px;
-    text-align:center;
-    font-size: 30px;
-    background-color: #339E90;
-    border-radius: 10px;
+a {
+    text-decoration: none;
 }
 
-.menubar {
-    text-align: center;
-    border-bottom: 10px solid #1B5049;
- }
- 
- button {
-     border: 2px solid #339E90;
-     border-radius: 10px;
-     background-color: white;
-     padding: 10px 20px;
-     margin: 6px 4px;
-     text-align:center;
-     font-size: 20px;
-     text-decoration:none;
-     cursor:pointer;
-     display: inline-block;
-     position: relative;
- }
- 
- button:hover {
-     background-color: #27776D;
- }
- 
-.photos {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-
-}
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    max-width: 100%;
-}
-/*style these txtboxes*/
 div[class*="caption"] {
     display: none;
     height:30px;
@@ -73,12 +27,85 @@ footer {
     text-align: center;
 }
 
-/*make the layout of photos to change when smaller screen*/
-/*Desktop*/
-@media only screen and (min-width: 768px) {
+.heading {
+    margin-top: 50px;
+    text-align:center;
+    font-size: 30px;
+    background-color: #339E90;
+    border-radius: 10px;
+}
+
+.menubar {
+    text-align: center;
+    border-bottom: 10px solid #1B5049;
+}
+ 
+.button {
+     border: 2px solid #339E90;
+     border-radius: 10px;
+     background-color: white;
+     text-align:center;
+     padding: 8px;
+     margin: 2px;
+     font-size: 1.2vw;
+     
+}
+ 
+.button:hover {
+     background-color: #27776D;
+}
+ 
+.links {
+     font-size: 10px;
+     margin-bottom: 20px;
+     padding: 10px;
+     display: inline-block;
+     position: relative;   
+ 
+}
+ 
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+/*phone*/
+@media only screen and (max-width: 768px) {
+
+    .button {
+        font-size: 2.8vw;
+    }
+
+    .column {
+        flex: 100%;
+        max-width:100%;
+    }
     
 }
 /*tablet*/
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 995px) {
+
+    .button {
+        font-size: 2.8vw;
+    }
+
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
 
 }
