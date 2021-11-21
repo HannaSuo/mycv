@@ -103,7 +103,7 @@ figure {
     }
     .menubar {
         flex:20%;
-        align-items: space-between;
+        align-items:stretch;
     }
     
     .links {
@@ -127,7 +127,7 @@ figure {
     }
     .menubar {
         flex:20%;
-        align-items: space-between;
+        align-items: stretch;
     }
     
     .links {
