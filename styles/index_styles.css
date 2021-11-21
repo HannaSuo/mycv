@@ -109,11 +109,12 @@ figure {
     .links {
         display:inline-flex;
         margin-left: 0px;
+        margin-bottom: 8px;
     
     }
 
     .button {
-        font-size: 2.1vw;
+        font-size: 2.3vw;
     }
     
 }
@@ -132,10 +133,11 @@ figure {
     .links {
         display:inline-flex;
         margin-left: 0px;
+        margin-bottom: 8px;
     }
 
     .button {
-        font-size: 2.1vw;
+        font-size: 2.3vw;
     }
 
 }
