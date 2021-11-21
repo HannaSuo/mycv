@@ -130,7 +130,7 @@ ul {
     }
     .menubar {
         flex:20%;
-        align-items: space-between;
+        align-items: stretch;
     }
     
     .links {
@@ -154,7 +154,7 @@ ul {
     }
     .menubar {
         flex:20%;
-        align-items: space-between;
+        align-items: stretch;
     }
     
     .links {
