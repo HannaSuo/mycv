@@ -26,9 +26,7 @@ footer {
     text-align: center;
 }
 
-img {
-    padding: 10px;
-}
+
 .heading {
     margin-top: 50px;
     text-align:center;
@@ -98,7 +96,8 @@ img {
     }
 
     div[class*="caption"] {
-        display: block;
+        visibility: visible;
+        height: 3vw;
         width:auto;
         margin-left:1px;
         background-color: #339E90;
@@ -119,7 +118,7 @@ img {
     }
 
     div[class*="caption"] {
-        display: block;
+        visibility: visible;
         width:auto;
         margin-left:1px;
         background-color: #339E90;
