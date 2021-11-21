@@ -9,7 +9,7 @@ a {
 }
 
 div[class*="caption"] {
-    display: none;
+    visibility: hidden;
     width:auto;
     margin-left:1px;
     background-color: #339E90;
@@ -17,7 +17,7 @@ div[class*="caption"] {
 }
 
 img:hover + div[class*="caption"] {
-    display: block;
+    visibility: visible;
 
 }
 
@@ -26,6 +26,9 @@ footer {
     text-align: center;
 }
 
+img {
+    padding: 10px;
+}
 .heading {
     margin-top: 50px;
     text-align:center;
