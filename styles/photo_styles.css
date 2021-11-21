@@ -11,7 +11,6 @@ a {
 div[class*="caption"] {
     visibility: hidden;
     width:auto;
-    margin-left:1px;
     background-color: #339E90;
     font-size: 14px;
 }
@@ -99,7 +98,6 @@ footer {
         visibility: visible;
         height: 3vw;
         width:auto;
-        margin-left:1px;
         background-color: #339E90;
         font-size: 2.8vw;
     }
@@ -120,7 +118,6 @@ footer {
     div[class*="caption"] {
         visibility: visible;
         width:auto;
-        margin-left:1px;
         background-color: #339E90;
         font-size: 2vw;
     }
