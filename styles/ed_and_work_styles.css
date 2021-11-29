@@ -3,6 +3,10 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background: url("cloud_background.jpg") no-repeat center fixed; 
+}
+
 a {
     text-decoration: none;
 }
@@ -22,6 +26,16 @@ figcaption {
 
 ul {
     list-style-type:none;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.employer {
+    border-top: 3px solid #27776D;
+    padding-top: 3px;
+    
 }
 
 .heading {
@@ -56,6 +70,7 @@ ul {
 
 .button:hover {
     background-color: #27776D;
+    color: white;
 }
 
 .links {
@@ -85,6 +100,7 @@ ul {
     font-size: 30px;
     background-color: #339E90;
     border-radius: 10px;
+    padding: 3px;
 }
 
 .worktext {

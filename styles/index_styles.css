@@ -3,6 +3,10 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background: url("bubbles_background.jpg") no-repeat center fixed; 
+}
+
 a {
     text-decoration: none;
 }
@@ -58,6 +62,7 @@ figure {
 
 .button:hover {
     background-color: #27776D;
+    color: white;
 }
 
 .welcomewords {
@@ -92,6 +97,18 @@ figure {
 
 #hide {
     display:none;
+}
+
+#download_link {
+    background-color:#27776D;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#download_link:hover {
+    background-color: white;
+    color:#27776D;
 }
 
 /*phone*/

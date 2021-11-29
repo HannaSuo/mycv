@@ -4,6 +4,10 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background: url("concrete_background.jpg") no-repeat center fixed; 
+}
+
 a {
     text-decoration: none;
 }
@@ -20,9 +24,14 @@ img:hover + div[class*="caption"] {
 
 }
 
+img:hover {
+    opacity: 0.5;
+}
+
 footer {
     margin: 10px;
     text-align: center;
+    background-color:#339E90
 }
 
 
@@ -52,6 +61,7 @@ footer {
  
 .button:hover {
      background-color: #27776D;
+     color: white;
 }
  
 .links {
